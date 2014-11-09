@@ -23,7 +23,7 @@
     </condition>
 
     <property name="db.name" value="book_management" />
-    <property name="db.url" value="jdbc:h2:tcp://${db.host}:${db.port}/${db.path}/${db.name}" />
+    <property name="db.url" value="jdbc:h2:tcp://${db.host}:${db.port}/~/${db.path}/${db.name}" />
 
     <property name="sql.dir" location="${basedir}/migrate" />
     <property name="sql.schema.dir" location="${sql.dir}/schema" />
